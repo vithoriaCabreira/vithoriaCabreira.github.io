@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <form class="form">
+      <h2>Crie sua conta</h2>
+
+      <div class="form-group">
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+      </div>
+
+      <div class="form-group">
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required>
+      </div>
+
+      <div class="form-group">
+        <label for="confirmarSenha">Confirmar senha</label>
+        <input type="password" id="confirmarSenha" name="confirmarSenha" placeholder="Confirme sua senha" required>
+      </div>
+
+      <div class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx">
+      </div>
+
+      <button type="submit" class="btn" onclick="window.location.href='login.html'; return false;">Cadastrar</button>
+
+      <p class="link">Já possui conta? <a href="login.html">Faça login</a></p>
+    </form>
+  </div>
+</body>
+</html>

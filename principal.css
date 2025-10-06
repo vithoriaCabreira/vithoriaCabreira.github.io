@@ -1,0 +1,150 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== FONTES ===== */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #f2f4f8;
+  color: #333;
+}
+
+/* ===== CABEÇALHO ===== */
+.cabecalho {
+  background-color: #4e73df;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-family: 'Poppins', sans-serif;
+  border-bottom: 4px solid #224abe;
+}
+
+.menu ul {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  color: #d1e0ff;
+}
+
+/* ===== SEÇÕES ===== */
+main {
+  padding: 2rem;
+}
+
+.secao {
+  margin-bottom: 2rem;
+}
+
+.secao h2 {
+  color: #224abe;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 0.8rem;
+}
+
+.secao p, li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== ÍCONES ===== */
+.icones {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.icone {
+  text-align: center;
+}
+
+.icone img {
+  width: 60px;
+  height: 60px;
+}
+
+.icone span {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #4e73df;
+}
+
+/* ===== GALERIA ===== */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.galeria img {
+  width: 180px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* ===== LINKS EXTRAS ===== */
+.links-extra {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.links-extra a {
+  display: inline-block;
+  margin: 0.5rem 1rem;
+  color: #224abe;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.links-extra a:hover {
+  color: #4e73df;
+  text-decoration: underline;
+}
+
+/* ===== RODAPÉ ===== */
+.rodape {
+  background-color: #224abe;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  background-color: #4e73df;
+  border: none;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #2e59d9;
+}

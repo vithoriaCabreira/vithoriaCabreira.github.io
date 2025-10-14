@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background: linear-gradient(-45deg, #dfefff, #b3d9ff, #99ccff, #e6f2ff);
+    background-size: 400% 400%;
+    animation: moveBackground 15s ease infinite;
+}
+
+header {
+    background: linear-gradient(90deg, #003366, #0066cc);
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin-bottom: 8px;
+}
+
+header p, header a {
+    color: #e0e0e0;
+    font-size: 1em;
+}
+
+header a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+main {
+    background-color: rgba(255,255,255,0.95);
+    margin: 40px auto;
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #004080;
+    border-left: 5px solid #0066cc;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+ul, dl {
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+dl dt {
+    font-weight: bold;
+    color: #003366;
+}
+
+dl dd {
+    margin-left: 15px;
+    color: #555;
+}
+
+footer {
+    background: linear-gradient(90deg, #003366, #004c99);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    box-shadow: 0px -3px 6px rgba(0,0,0,0.3);
+}
+
+@keyframes moveBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+        padding: 20px;
+    }
+    header h1 {
+        font-size: 1.7em;
+    }
+}

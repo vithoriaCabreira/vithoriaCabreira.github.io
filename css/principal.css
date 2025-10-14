@@ -160,3 +160,18 @@ main {
   text-decoration: underline;
   color: #d1e0ff;
 }
+
+.rodape ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 1rem auto;
+  gap: 16px;
+  justify-content: center;
+}
+
+.rodape-link {
+  text-decoration: none;
+  color: inherit;
+}

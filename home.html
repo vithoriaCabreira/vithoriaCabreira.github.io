@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+
+  <!-- Fonte externa do Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/principal.css">
+  <script>
+    // futuro espaço para JS (login, interatividade, etc.)
+  </script>
+</head>
+<body>
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="cabecalho">
+    <h1>Bem-vindo(a) ao Sistema</h1>
+    <nav class="menu">
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== CONTEÚDO PRINCIPAL ===== -->
+  <main>
+    <section id="home" class="secao">
+      <h2>Início</h2>
+      <p>Este é o painel principal do sistema. Aqui você poderá acessar suas informações, visualizar dados e navegar pelas seções disponíveis.</p>
+
+      <!-- Ícones (simples por enquanto, prontos para receber JS futuramente) -->
+      <div class="icones">
+        <div class="icone">
+          <img src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Usuários">
+          <span>Usuários</span>
+        </div>
+        <div class="icone">
+          <img src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" alt="Configurações">
+          <span>Configurações</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="secao">
+      <h2>Sobre o Sistema</h2>
+      <p>O sistema foi desenvolvido com o objetivo de oferecer uma interface simples e acessível para os usuários. Ele permite o cadastro, login e acesso rápido às funcionalidades principais.</p>
+      <ul>
+        <li>Interface moderna e responsiva</li>
+        <li>Fácil integração com JavaScript e APIs</li>
+        <li>Suporte para novos módulos</li>
+      </ul>
+
+      <!-- 4 imagens -->
+      <div class="galeria">
+        <img src="https://picsum.photos/200?random=1" alt="Imagem 1">
+        <img src="https://picsum.photos/200?random=2" alt="Imagem 2">
+        <img src="https://picsum.photos/200?random=3" alt="Imagem 3">
+        <img src="https://picsum.photos/200?random=4" alt="Imagem 4">
+      </div>
+    </section>
+
+    <section id="contato" class="secao">
+      <h2>Contato</h2>
+      <p>Para dúvidas, sugestões ou suporte, entre em contato conosco pelos seguintes canais:</p>
+      <p><strong>E-mail:</strong> suporte@sistema.com</p>
+      <p><strong>Telefone:</strong> (41) 99999-9999</p>
+    </section>
+
+    <!-- Links adicionais -->
+    <div class="links-extra">
+      <a href="https://www.google.com" target="_blank">Google</a>
+      <a href="https://www.youtube.com" target="_blank">YouTube</a>
+      <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+    </div>
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="rodape">
+    <ul>
+      <li><a class="rodape-link" href="curriculumLeonardo.html">Currículo Leonardo</a></li>
+      <li><a class="rodape-link" href="curriculumVithoria.html">Currículo Vithoria</a></li>
+      <li><a class="rodape-link" href="curriculumLeticia.html">Currículo Leticia</a></li>
+    </ul>
+    <p>&copy; 2025 - Sistema Web Educacional | Desenvolvido para fins acadêmicos</p>
+    <button class="btn" onclick="window.location.href='login.html'">Sair</button>
+  </footer>
+</body>
+</html>

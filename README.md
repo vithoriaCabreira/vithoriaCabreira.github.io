@@ -32,6 +32,6 @@ Este projeto consiste em uma aplicação web desenvolvida para fins educacionais
 2. Abra o arquivo `index.html` em seu navegador.
 
 Ou se preferir usar a própria página use: 
-   ```
+  ```
   https://vithoriacabreira.github.io
   ```
